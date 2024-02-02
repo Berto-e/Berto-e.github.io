@@ -41,7 +41,7 @@ body {
 }
 
 .barra-navegacion h2 {
-    font-family: "GohuFont 14 Nerd Font";
+    font-family: "Pixelify Sans";
     font-weight: bolder;
     font-size: 2em;
     color: white;
@@ -222,7 +222,7 @@ body {
 .sobre-mi h2 {
     font-size: 2em;
     color: rgb(239, 239, 0);
-    font-family: "GohuFont 14 Nerd Font";
+    font-family: "Pixelify Sans";
     font-weight: bolder;
     text-shadow: 5px 5px 5px #0008;
     margin: 0;
@@ -231,7 +231,7 @@ body {
 
 .sobre-mi p {
     font-size: 1.2em;
-    font-family: "GohuFont 14 Nerd Font";
+    font-family: "Poppins";
     color: white;
     display: block;
     margin-block-start: 1em;
@@ -267,7 +267,7 @@ body {
     font-size: 2em;
 
     color: rgb(239, 239, 0);
-    font-family: "GohuFont 14 Nerd Font";
+    font-family: "Pixelify Sans";
     font-weight: bolder;
     text-shadow: 5px 5px 5px #0008;
     margin: 0;
@@ -335,7 +335,7 @@ footer {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-size: 22px;
-    font-family: "GohuFont 14 Nerd Font";
+    font-family: "Pixelify Sans";
     color: white;
     font-weight: 1000;
 }
@@ -364,7 +364,7 @@ footer {
     font-size: 2em;
 
     color: rgb(239, 239, 0);
-    font-family: "GohuFont 14 Nerd Font";
+    font-family: "Pixelify Sans";
     font-weight: bolder;
     text-shadow: 5px 5px 5px #0008;
     margin: 0;
@@ -401,7 +401,7 @@ footer {
     transform: scale(1.2);
     width: 50%;
     margin: 0 auto;
-    font-family: "GohuFont 14 Nerd Font";
+    font-family: "Pixelify Sans";
     margin-bottom: 30px;
 
 }
