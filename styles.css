@@ -4,10 +4,11 @@
 
 @font-face {
     font-family: 'GohuFont 14 Nerd Font';
-    src: url('/public/fonts/Gohu/GohuFont14NerdFont-Regular.ttf');
+    src: url('./public/fonts/GohuFont14NerdFont-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
+
 
 
 
@@ -41,7 +42,11 @@ body {
 }
 
 .barra-navegacion h2 {
+<<<<<<< HEAD
     font-family: "Pixelify Sans";
+=======
+    font-family: 'GohuFont 14 Nerd Font';
+>>>>>>> 65a062dbedeefeef900943d7c4b7207da8061aff
     font-weight: bolder;
     font-size: 2em;
     color: white;
@@ -231,7 +236,11 @@ body {
 
 .sobre-mi p {
     font-size: 1.2em;
+<<<<<<< HEAD
     font-family: "Poppins";
+=======
+    font-family: 'GohuFont 14 Nerd Font';
+>>>>>>> 65a062dbedeefeef900943d7c4b7207da8061aff
     color: white;
     display: block;
     margin-block-start: 1em;
@@ -487,4 +496,4 @@ footer {
 
 .bar.expert::before {
     width: calc(100% - 10px);
-}
+} 
