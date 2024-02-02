@@ -4,11 +4,10 @@
 
 @font-face {
     font-family: 'GohuFont 14 Nerd Font';
-    src: url('./public/fonts/GohuFont14NerdFont-Regular.ttf');
+    src: url('/public/fonts/Gohu/GohuFont14NerdFont-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
-
 
 
 
@@ -42,11 +41,7 @@ body {
 }
 
 .barra-navegacion h2 {
-<<<<<<< HEAD
-    font-family: "Pixelify Sans";
-=======
-    font-family: 'GohuFont 14 Nerd Font';
->>>>>>> 65a062dbedeefeef900943d7c4b7207da8061aff
+    font-family: "GohuFont 14 Nerd Font";
     font-weight: bolder;
     font-size: 2em;
     color: white;
@@ -227,7 +222,7 @@ body {
 .sobre-mi h2 {
     font-size: 2em;
     color: rgb(239, 239, 0);
-    font-family: "Pixelify Sans";
+    font-family: "GohuFont 14 Nerd Font";
     font-weight: bolder;
     text-shadow: 5px 5px 5px #0008;
     margin: 0;
@@ -236,11 +231,7 @@ body {
 
 .sobre-mi p {
     font-size: 1.2em;
-<<<<<<< HEAD
-    font-family: "Poppins";
-=======
-    font-family: 'GohuFont 14 Nerd Font';
->>>>>>> 65a062dbedeefeef900943d7c4b7207da8061aff
+    font-family: "GohuFont 14 Nerd Font";
     color: white;
     display: block;
     margin-block-start: 1em;
@@ -276,7 +267,7 @@ body {
     font-size: 2em;
 
     color: rgb(239, 239, 0);
-    font-family: "Pixelify Sans";
+    font-family: "GohuFont 14 Nerd Font";
     font-weight: bolder;
     text-shadow: 5px 5px 5px #0008;
     margin: 0;
@@ -344,7 +335,7 @@ footer {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     font-size: 22px;
-    font-family: "Pixelify Sans";
+    font-family: "GohuFont 14 Nerd Font";
     color: white;
     font-weight: 1000;
 }
@@ -373,7 +364,7 @@ footer {
     font-size: 2em;
 
     color: rgb(239, 239, 0);
-    font-family: "Pixelify Sans";
+    font-family: "GohuFont 14 Nerd Font";
     font-weight: bolder;
     text-shadow: 5px 5px 5px #0008;
     margin: 0;
@@ -410,7 +401,7 @@ footer {
     transform: scale(1.2);
     width: 50%;
     margin: 0 auto;
-    font-family: "Pixelify Sans";
+    font-family: "GohuFont 14 Nerd Font";
     margin-bottom: 30px;
 
 }
@@ -496,4 +487,4 @@ footer {
 
 .bar.expert::before {
     width: calc(100% - 10px);
-} 
+}
