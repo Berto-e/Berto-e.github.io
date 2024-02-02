@@ -1,0 +1,490 @@
+:root {
+    --fancy-gradient: linear-gradient(288deg, rgba(0, 85, 255, 1) 1.5%, rgba(4, 56, 115, 1) 91.6%);
+}
+
+@font-face {
+    font-family: 'GohuFont 14 Nerd Font';
+    src: url('/public/fonts/Gohu/GohuFont14NerdFont-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+*,
+html {
+
+    scroll-behavior: smooth !important;
+}
+
+body {
+    background: linear-gradient(#202020, #222);
+    margin: 0;
+    min-height: 100vh;
+    display: block;
+    padding: 0;
+
+
+}
+
+.barra-navegacion {
+    background: linear-gradient(#202020, #151515);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    height: auto;
+
+
+
+}
+
+.barra-navegacion h2 {
+    font-family: "GohuFont 14 Nerd Font";
+    font-weight: bolder;
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+    margin: 0;
+    padding: 10px;
+
+
+}
+
+
+.about-navbar {
+
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    /* Agrega una transición para una animación suave del color de fondo */
+}
+
+.about-navbar:hover {
+    background: rgb(74, 0, 245);
+}
+
+.skills-navbar {
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    /* Agrega una transición para una animación suave del color de fondo */
+}
+
+.skills-navbar:hover {
+    background: rgb(255, 0, 0);
+}
+
+.projects-navbar {
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    /* Agrega una transición para una animación suave del color de fondo */
+}
+
+.projects-navbar:hover {
+    background: rgb(89, 255, 0);
+}
+
+.contact-navbar {
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    /* Agrega una transición para una animación suave del color de fondo */
+}
+
+.contact-navbar:hover {
+    background: rgb(106, 101, 0);
+}
+
+.github,
+.linkedin {
+    height: 49.5px;
+    cursor: pointer;
+    padding: 7.5px;
+    vertical-align: middle;
+    margin: 0;
+
+}
+
+.github:hover {
+    background: rgb(43, 43, 65);
+}
+
+
+
+
+
+.linkedin:hover {
+    background: rgb(0, 71, 186);
+}
+
+
+/* Media query para ajustar el estilo en tamaños de pantalla más pequeños */
+@media (max-width: 768px) {
+    .barra-navegacion h2 {
+        /* Reducir el tamaño del texto */
+        font-size: 1.5em;
+
+    }
+}
+
+
+
+
+
+.portada {
+
+    height: 250px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 5%, rgba(0, 212, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    box-shadow: inset 0 0 0 3px rgb(255 255 255 / 15%), inset 0 0 0 5px rgb(255 255 255 / 15%);
+
+
+
+}
+
+.titulo {
+
+    width: 800px;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+
+
+}
+
+.titulo img {
+    display: inline-block;
+    width: 260px;
+    transform: translateX(30px) translateY(15px) rotate(-7deg);
+    filter: drop-shadow(5px 5px 5px #0008);
+    transition: transform 0.5s ease;
+    image-rendering: pixelated;
+}
+
+.portada:hover .titulo img {
+    transform: translateX(30px) translateY(300px) rotate(-7deg);
+}
+
+.titulo .texto {
+    font-family: "Bebas Neue", sans-serif;
+    /*Hacer reglas font face para poder cargar la font-family*/
+    color: white;
+    font-size: 10rem;
+    font-weight: 800;
+    text-shadow: 5px 5px 5px #0008;
+    line-height: 80%;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+
+
+}
+
+.portada:hover .titulo .texto {
+    transform: translateX(-110px) translateY(-30px) scale(1.5);
+}
+
+@media (max-width: 768px) {
+    .portada .titulo .texto {
+        font-size: 5rem;
+
+    }
+
+    .portada .titulo img {
+        width: 100px;
+        transform: translateX(10px) translateY(10px) rotate(-7deg);
+    }
+
+    .portada {
+        height: 150px;
+    }
+}
+
+@media(max-width: 768px) {
+    .portada:hover .titulo .texto {
+        transform: translateX(-40px) translateY(-20px) scale(1.5);
+    }
+}
+
+.sobre-mi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.sobre-mi h2 {
+    font-size: 2em;
+    color: rgb(239, 239, 0);
+    font-family: "GohuFont 14 Nerd Font";
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px #0008;
+    margin: 0;
+
+}
+
+.sobre-mi p {
+    font-size: 1.2em;
+    font-family: "GohuFont 14 Nerd Font";
+    color: white;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+@media (max-width: 768px) {
+    .sobre-mi {
+        max-height: none;
+        /* Permite que la altura se adapte al contenido en dispositivos pequeños */
+    }
+}
+
+
+
+
+
+.proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+
+
+}
+
+.proyectos h2 {
+    font-size: 2em;
+
+    color: rgb(239, 239, 0);
+    font-family: "GohuFont 14 Nerd Font";
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px #0008;
+    margin: 0;
+
+}
+
+.proyectos-lista {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 0;
+}
+
+.proyectos-lista li {
+    position: relative;
+    width: 300px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+
+.proyectos-lista li:hover {
+    transform: scale(1.1);
+}
+
+.proyectos-lista img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+@media (max-width: 768px) {
+    .proyectos-lista {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+footer {
+
+    height: 125px;
+    background: #111;
+    display: block;
+    margin-top: auto;
+
+}
+
+.texto-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.texto-footer p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 22px;
+    font-family: "GohuFont 14 Nerd Font";
+    color: white;
+    font-weight: 1000;
+}
+
+.texto-footer p img {
+    width: 30px;
+    transform: translateY(5px);
+    image-rendering: pixelated;
+}
+
+
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    margin: auto;
+    padding: 0px;
+
+
+
+}
+
+.skills h2 {
+    font-size: 2em;
+
+    color: rgb(239, 239, 0);
+    font-family: "GohuFont 14 Nerd Font";
+    font-weight: bolder;
+    text-shadow: 5px 5px 5px #0008;
+    margin: 0;
+
+
+}
+
+.skillPanel-1 {
+    width: 50%;
+
+    margin: 0 auto;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.spellbook {
+    height: 200px;
+    width: 200px;
+    image-rendering: pixelated;
+    cursor: pointer;
+
+
+
+
+}
+
+.skillPanel-2 {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+    transform: scale(1.2);
+    width: 50%;
+    margin: 0 auto;
+    font-family: "GohuFont 14 Nerd Font";
+    margin-bottom: 30px;
+
+}
+
+
+@keyframes load {
+    from {
+        width: 0%
+    }
+}
+
+@-webkit-keyframes load {
+    from {
+        width: 0%
+    }
+}
+
+@-moz-keyframes load {
+    from {
+        width: 0%
+    }
+}
+
+@-o-keyframes load {
+    from {
+        width: 0%
+    }
+}
+
+.bar {
+
+    background-color: #EEE;
+    padding: 2px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    border-radius: 9px;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.bar::before {
+    content: attr(data-skill);
+    background-color: rgb(250, 135, 135);
+    display: inline-block;
+    padding: 5px 0 5px 10px;
+    border-radius: inherit;
+    animation: load 3s 0s;
+    -webkit-animation: load 3s 0s;
+    -moz-animation: load 3s 0s;
+    -o-animation: load 3s 0s;
+}
+
+.bar.advanced::before {
+    background-color: rgb(71, 10, 255);
+}
+
+.bar.intermediate::before {
+    background-color: rgb(0, 52, 142);
+}
+
+.bar.basic::before {
+    background-color: rgb(104, 143, 249);
+}
+
+.bar.learning::before {
+    width: calc(20% - 10px);
+}
+
+.bar.basic::before {
+    width: calc(40% - 10px);
+}
+
+.bar.intermediate::before {
+    width: calc(60% - 10px);
+}
+
+.bar.advanced::before {
+    width: calc(80% - 10px);
+}
+
+.bar.expert::before {
+    width: calc(100% - 10px);
+}
