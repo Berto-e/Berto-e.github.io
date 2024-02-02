@@ -395,8 +395,10 @@ footer {
 
 }
 
+
 .skillPanel-2 {
-    height: 0px;
+    display:none;
+    height: 200px;
     overflow: hidden;
     transition: height 0.3s ease-in-out;
     transform: scale(1.2);
@@ -452,10 +454,10 @@ footer {
     display: inline-block;
     padding: 5px 0 5px 10px;
     border-radius: inherit;
-    animation: load 3s 0s;
-    -webkit-animation: load 3s 0s;
-    -moz-animation: load 3s 0s;
-    -o-animation: load 3s 0s;
+    animation: load 2s 0s;
+    -webkit-animation: load 2s 0s;
+    -moz-animation: load 2s 0s;
+    -o-animation: load 2s 0s;
 }
 
 .bar.advanced::before {
