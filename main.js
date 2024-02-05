@@ -9,7 +9,7 @@ document.getElementById("spellbook").addEventListener("click", function () {
       panelSkills.style.display = "none";
       setTimeout(() => {
         panelSkills.style.height = "0px";
-      }, 500);
+      }, 150);
     }
 });
 
