@@ -389,10 +389,11 @@ footer {
     width: 200px;
     image-rendering: pixelated;
     cursor: pointer;
+    transition: transform 0.5s ease;
+}
 
-
-
-
+.spellbook:hover{
+    transform: scale(1.3);
 }
 
 
